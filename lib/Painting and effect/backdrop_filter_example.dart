@@ -1,4 +1,4 @@
-import 'dart:ui' as ui;
+import 'dart:ui';
 
 import 'package:flutter/material.dart';
 
@@ -7,22 +7,34 @@ class BackdropFilterExample extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return BackdropGroup(
-      child: ListView.builder(
-        itemCount: 60,
-        itemBuilder: (BuildContext context, int index) {
-          return ClipRect(
-            child: BackdropFilter.grouped(
-              filter: ui.ImageFilter.blur(sigmaX: 40, sigmaY: 40),
+    return Stack(
+      fit: StackFit.expand,
+      children: [
+        Image.network(
+          'https://plus.unsplash.com/premium_photo-1670148434900-5f0af77ba500?q=80&w=687&auto=format&fit=crop&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+          fit: BoxFit.cover,
+        ),
+        Center(
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(20),
+            child: BackdropFilter(
+              filter: ImageFilter.blur(sigmaX: 5.0, sigmaY: 5.0),
               child: Container(
-                color: Colors.black.withOpacity(0.2),
-                height: 200,
-                child: const Text('Blur item'),
+                padding: const EdgeInsets.all(20),
+                color: Colors.black.withValues(alpha: 0.3),
+                child: const Text(
+                  'Hello Flutter!',
+                  style: TextStyle(
+                    fontSize: 28,
+                    color: Colors.white,
+                    fontWeight: FontWeight.bold,
+                  ),
+                ),
               ),
             ),
-          );
-        },
-      ),
+          ),
+        ),
+      ],
     );
   }
 }
