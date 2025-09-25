@@ -12,13 +12,6 @@ The goal is to **experiment with different widgets, understand their properties,
 
 ---
 
-## 🚀 How to Run
-1. Clone or download the project to your local machine.  
-2. Open the project in **Android Studio or VSCode**.  
-3. Run any Dart file example via `main.dart` or integrate it into a page.
-
----
-
 ## 💡 Notes
 - Each widget example is in a **separate Dart file** for easy reuse.  
 - Some examples use **StatefulWidget** to demonstrate interaction or animations.  
