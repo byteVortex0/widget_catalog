@@ -1,16 +1,27 @@
-# widget_catalog
+# Flutter Widgets Playground
 
-A new Flutter project.
+This project is a **personal exploration of Flutter's widget catalog**.  
+The goal is to **experiment with different widgets, understand their properties, and see how they behave in real scenarios** through live, interactive examples.
 
-## Getting Started
+---
 
-This project is a starting point for a Flutter application.
+## 📌 Project Idea
+- Explore **basic and advanced widgets** in Flutter beyond conventional usage.  
+- Create **practical examples for each widget** to understand its effect, properties, and best usage patterns.  
+- Make it easier for **hands-on learning** for both beginners and advanced Flutter developers.
 
-A few resources to get you started if this is your first Flutter project:
+---
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 💡 Notes
+- Each widget example is in a **separate Dart file** for easy reuse.  
+- Some examples use **StatefulWidget** to demonstrate interaction or animations.  
+- Feel free to modify or combine examples to explore different widget behaviors.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
+
+## 📚 References
+- [Flutter Widgets Catalog](https://docs.flutter.dev/ui/widgets)  
+- [Flutter Documentation](https://flutter.dev/docs)
+
+- --
+#FlutterMentors3
