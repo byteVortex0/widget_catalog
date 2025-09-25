@@ -27,5 +27,5 @@ The goal is to **experiment with different widgets, understand their properties,
 ---
 
 ## 📚 References
-- [Flutter Widgets Catalog](https://api.flutter.dev/flutter/widgets/widgets-library.html)  
+- [Flutter Widgets Catalog](https://docs.flutter.dev/ui/widgets)  
 - [Flutter Documentation](https://flutter.dev/docs)
